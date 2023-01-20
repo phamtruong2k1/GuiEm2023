@@ -37,13 +37,13 @@ body{
     position: relative;
     display: flex;
     line-height: normal;
-    width: 530px;
+    width: 360px;   
     justify-content: space-between;
 }
 .box-time .time{
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,18 +56,18 @@ body{
 .box-time .time::before{
     position: absolute;
     content: '';
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border: 11px solid rgb(251, 255, 0);
     box-shadow: inset 0 0 10px #333;
     border-radius: 50%;
 }
 .box-time .time p{
-    font-size: 35px;
+    font-size: 25px;
     font-family: 'Caramel', cursive;
 }
 .box-time .time span{
     padding: 10px 0px;
-    font-size: 25px;
+    font-size: 15px;
     font-family: 'Fredoka One', cursive;
 }

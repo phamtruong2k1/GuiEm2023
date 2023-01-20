@@ -28,9 +28,12 @@ body{
     top: 0;
 }
 .slider1{
-    width: 100%;
     height: 100%;
     overflow: hidden;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     animation: slider1 3s forwards;
     user-select: none;
 }
@@ -58,7 +61,7 @@ body{
 }
 .textHappynewyear{
     position: absolute;
-    width: 500px;
+    width: 320px;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -78,8 +81,8 @@ body{
     top: 0;
 }
 .textHappynewyear .box-span span{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background-color: red;
     transform: rotate(45deg);
     display: flex;
@@ -200,7 +203,7 @@ body{
     content: 'Chúc';
     transform: rotate(-45deg);
     font-family: 'Water Brush', cursive;
-    font-size: 40px;
+    font-size: 30px;
     color: #ffe100;
     animation: textHappy1 4s linear infinite;
 }
@@ -223,7 +226,7 @@ body{
     content: 'Mừng';
     transform: rotate(-45deg);
     font-family: 'Water Brush', cursive;
-    font-size: 35px;
+    font-size: 28px;
     color: #ffe100;
     animation: textHappy2 4s linear infinite;
 }
@@ -246,7 +249,7 @@ body{
     content: 'Năm';
     transform: rotate(-45deg);
     font-family: 'Water Brush', cursive;
-    font-size: 40px;
+    font-size: 30px;
     color: #ffe100;
     animation: textHappy3 4s linear infinite;
 }
@@ -269,7 +272,7 @@ body{
     content: 'Mới';
     transform: rotate(-45deg);
     font-family: 'Water Brush', cursive;
-    font-size: 40px;
+    font-size: 30px;
     color: #ffe100;
     animation: textHappy4 4s linear infinite;
 }
@@ -1052,7 +1055,7 @@ body{
 .box-lion_dance .lion_dance1{
     position: absolute;
     width: 250px;
-    top: 290px;
+    top: 390px;
     right: 180px;
     z-index: 100;
     transform: scale(0);
@@ -1088,7 +1091,7 @@ body{
 .box-lion_dance .lion_dance2{
     position: absolute;
     width: 250px;
-    top: 310px;
+    top: 420px;
     left: 200px;
     z-index: 100;
     transform: scale(0);
@@ -1789,6 +1792,7 @@ body{
     transition: 1s;
 }
 .slider3:hover .content p{
+    font-size: 14px;
     animation: bodyContent 2s 1s forwards;
 }
 @keyframes bodyContent{
@@ -1803,15 +1807,16 @@ body{
     width: 250px;
     height: 80px;
     overflow: hidden; 
-    margin-left: 150px;  
+    margin-left: 100px;  
 }
 .box-content .right .content h3{
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Dancing Script', cursive;
-    padding: 20px 0px 0px 20px;
+    padding: 20px 0px 0px -100px;
     margin-top: -50px;
 }
 .slider3:hover .content h3{
+    font-size: 14px;
     animation: fixedContent 2s 2s forwards;
 }
 @keyframes fixedContent{
